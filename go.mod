@@ -3,9 +3,8 @@ module github.com/apache/mynewt-mcumgr-cli
 go 1.12
 
 require (
-	github.com/JuulLabs-OSS/ble v0.0.0-20200716215611-d4fcc9d598bb // indirect
-	github.com/go-ble/ble v0.0.0-20181002102605-e78417b510a3 // indirect
-	golang.org/x/sys v0.0.0-20220608164250-635b8c9b7f68 // indirect
-	mynewt.apache.org/newt v0.0.0-20201028015609-b57111dbd19f
-	mynewt.apache.org/newtmgr v0.0.0-20201028150837-60b2da78788c
+	mynewt.apache.org/newt v0.0.0-20230307214303-0b46ad464e7a
+	mynewt.apache.org/newtmgr v0.0.0-20230307221322-e33456691c39
 )
+
+replace mynewt.apache.org/newtmgr => github.com/abferm/mynewt-newtmgr v0.0.2
