@@ -7,4 +7,4 @@ require (
 	mynewt.apache.org/newtmgr v0.0.0-20230307221322-e33456691c39
 )
 
-replace mynewt.apache.org/newtmgr => github.com/abferm/mynewt-newtmgr v0.0.3
+replace mynewt.apache.org/newtmgr => github.com/abferm/mynewt-newtmgr v0.0.5
